@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Срочный выкуп авто в Москве</title>
+  <title>{{site.title}}</title>
 </head>
 <body>
   <div class="wrapper">
     <div class="inner">
       <nav class="b-navigation">
-        
+        {% for nav in site.navigation %}
+          <a href="{{nav.url}}" class="b-navigation__item">{{nav.title}}</a>
+        {% endfor %}
       </nav>
       <!-- /.b-navigation -->
     </div>
