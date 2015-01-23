@@ -14,7 +14,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
+.c9
 
 ### SublimeText ###
 # workspace files are user-specific
