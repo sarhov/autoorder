@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* line 3, ../sass/style.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/style.scss */
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 12, ../sass/style.scss */
+body {
+  background: #0478B3 url("../img/bg.png") left top repeat;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 200px;
+  font-family: Helvetica,тАЛArial,тАЛsans-serif;
+}
+
+/* line 20, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 24, ../sass/style.scss */
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 29, ../sass/style.scss */
+.wrapper {
+  width: 100%;
+}
+/* line 31, ../sass/style.scss */
+.wrapper_gray {
+  background: #EEEEEE;
+  padding: 5px 0 20px 0;
+}
+/* line 35, ../sass/style.scss */
+.wrapper_top-bar {
+  border-bottom: 3px solid #005988;
+}
+
+/* line 40, ../sass/style.scss */
+.inner {
+  width: 1000px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* line 46, ../sass/style.scss */
+.b-navigation {
+  height: 60px;
+  line-height: 60px;
+}
+/* line 49, ../sass/style.scss */
+.b-navigation__item {
+  -moz-transition: all, 0.2s;
+  -o-transition: all, 0.2s;
+  -webkit-transition: all, 0.2s;
+  transition: all, 0.2s;
+  display: inline-block;
+  margin-right: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 55, ../sass/style.scss */
+.b-navigation__item:hover {
+  color: #000;
+}
