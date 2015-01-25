@@ -1,0 +1,21 @@
+.editor{
+
+  h4, h4 a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 105%;
+    margin-bottom: 5px;
+  }
+  p{
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000;
+    +p:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 # Site settings
 title: 'Срочный выкуп авто в Москве' 
-email: site email
+email: 'site email'
+phone: '8-926-06-06-444'
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,8 +13,8 @@ markdown: kramdown
 include:      ["*.scss"]
 exclude: ["*.sublime-project", "*.sublime-workspace", "*PSD"]
 collections:
-  collection_name:
+  articles:
     output: true
-  collectin_name:
+  services: 
     output: true
 

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="b-item b-item_page">
+  <h2 class="b-item__title">
+    <a href="{{site.baseurl}}about-us.html" class="b-item__link">{{page.title}}</a>
+  </h2>
+  <!-- /.b-item__title -->
+  <div class="b-item__text editor">
+  {% if page.author or page.date %}
+      <div class="b-item__meta">
+        {% if page.author %}
+            <span class="b-item__author">Оставлен: {{page.author}} </span>
+        {% endif %}
+        {% if page.date %}
+            <span class="b-item__date">{{page.date}}</span>
+        {% endif %}
+      </div>
+      <!-- /.b-item__meta -->
+  {% endif %}
+    {{content}}
+    <div class="b-item__links">
+      <ul class="b-links b-links_articles">
+        {% assign currentArticle = page.url %}
+        {% for article in site.articles %}
+        <li class="b-links__item">
+          <a href="{{article.url}}" class="b-links__link">{{article.title}}</a>
+        </li>
+        <!-- /.b-links__item -->
+        {% endfor %}
+      </ul>
+      <!-- /.b-links b-links_articles -->
+    </div>
+    <!-- /.b-links b-links_article -->
+  <!--   <p>С наилучшими пожеланиями!</p> -->
+    <a href="{{site.baseurl}}">www.avtovikup77.ru</a>
+  </div>
+  <!-- /.b-item__text -->
+</div>
+<!-- /.b-item -->

@@ -1,0 +1,81 @@
+---
+layout: page
+title: 'ФОРМА ДЛЯ ПРЕДВАРИТЕЛЬНОЙ ОЦЕНКИ'
+---
+
+<div class="b-form">
+  <form action="">
+    <div class="b-form__line"><label for="car_brand" class="b-form__label">Марка автомобиля *</label><input type="text" name="" id="car_brand" class="b-form__input-text"></div>
+    <!-- /.b-form__line -->
+    <div class="b-form__line"><label for="car_type" class="b-form__label">Модель автомобиля *</label><input type="text" name="" id="car_type" class="b-form__input-text"></div>
+    <!-- /.b-form__line -->
+    <div class="b-form__line"><label for="obem_dvig" class="b-form__label">Объем двигателя (в куб.см) </label><input type="text" name="" id="obem_dvig" class="b-form__input-text"></div>
+    <!-- /.b-form__line -->
+    <div class="b-form__line"><label for="probeg" class="b-form__label">Пробег (в км) *</label><input type="text" name="" id="probeg" class="b-form__input-text"></div>
+    <!-- /.b-form__line -->
+    <div class="b-form__line"><label for="owners" class="b-form__label">Количество владельцев *</label><select name="" id="" class="b-form__select">
+      <option value="" class="b-form__option-item">Выбереите</option>
+      <!-- /.b-form__option-item -->
+      <option value="1" class="b-form__option-item">1</option>
+      <!-- /.b-form__option-item -->
+      <option value="2" class="b-form__option-item">2</option>
+      <!-- /.b-form__option-item -->
+      <option value="3" class="b-form__option-item"> 3 и более</option>
+      <!-- /.b-form__option-item -->
+    </select></div>
+    <!-- /.b-form__line -->
+    <div class="b-form__line">
+      <label for="" class="b-form__label">Тип коробки передач *</label>
+      <div class="b-form__radio-line">
+       <input type="radio" name="korobka" value="mech" checked id="korobka_mech">
+       <label for="korobka_mech" class="b-form__radio-label"> Механическая</label>
+     </div>
+      <div class="b-form__nested-line">
+      <input type="radio" name="korobka" value="auto" id="korobka_auto">
+       <label for="korobka_auto" class="b-form__radio-label"> Автоматическая</label>
+     </div>
+   </div>
+   <!-- /.b-form__line -->
+   <div class="b-form__line">
+     <label for="attach" class="b-form__label">Добавить фото автомобиля </label>
+     <div class="b-form__nested-line">
+        <input type="file" name="image" id="attach">
+        <input value="Загрузить" type="button" class="b-form__action">
+      </div>
+     <!-- /.b-form__nested-line -->
+   </div>
+   <!-- /.b-form__line -->
+     <div class="b-form__line">
+      <label for="car_price" class="b-form__label">Цена автомобиля </label>
+      <input type="text" name="" id="car_price" class="b-form__input-text">
+    </div>
+    <!-- b-form__line -->
+
+     <div class="b-form__line">
+      <label for="message" class="b-form__label">Примечание  </label>
+      <textarea name="message" id="car_price" class="b-form__input-text"></textarea>
+    </div>
+    <!-- b-form__line -->
+
+     <div class="b-form__line">
+      <label for="name" class="b-form__label">Ваше имя  </label>
+      <input type="text" name="" id="name" class="b-form__input-text">
+    </div>
+    <!-- b-form__line -->
+     <div class="b-form__line">
+      <label for="phone" class="b-form__label">Ваш телефон *</label>
+      <input type="text" name="" id="phone" class="b-form__input-text">
+    </div>
+    <!-- b-form__line -->
+     <div class="b-form__line">
+      <label for="email" class="b-form__label">Ваш e-mail </label>
+      <input type="text" name="" id="email" class="b-form__input-text">
+    </div>
+    <!-- b-form__line -->
+    <div class="b-form__line">
+      <input type="submit" value="Отправить" class="b-form__action">
+    </div>
+    <!-- /.b-form__line -->
+ </form>
+</div>
+<!-- /.b-form -->

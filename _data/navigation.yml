@@ -1,3 +1,4 @@
+top-bar:
 - title: 'Главная'
   url: '/index.html'
 - title: 'Перечень услуг'
@@ -5,4 +6,20 @@
 - title: 'Контакты'
   url: '/contacts.html'
 - title: 'Онлайн-заявка'
-  url: '/orders.html'
+  url: '/online-order.html'
+
+sidebar-links:
+- title: 'Выкуп б/у авто'
+  url: 'used.html'
+- title: 'Выкуп битых авто'
+  url: 'breaked.html'
+- title: 'Выкуп кредитных авто'
+  url: 'credit.html'
+- title: 'Выкуп мотоциклов'
+  url: 'bike.html'
+- title: 'Выкуп грузовых автомобилей'
+  url: 'truck.html'
+- title: 'Снятие с учета'
+  url: 'uchet.html'
+- title: 'Полезная информация'
+  url: 'info.html'
