@@ -25,7 +25,7 @@ layout: default
         {% assign currentArticle = page.url %}
         {% for article in site.articles %}
         <li class="b-links__item">
-          <a href="{{article.url}}" class="b-links__link">{{article.title}}</a>
+          <a href="{{site.baseurl}}{{article.url}}" class="b-links__link">{{article.title}}</a>
         </li>
         <!-- /.b-links__item -->
         {% endfor %}

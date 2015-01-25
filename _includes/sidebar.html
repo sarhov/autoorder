@@ -8,7 +8,7 @@
       {% assign current = page.url  %}
       {% for page in site.services %}
       <li class="b-links__item {% if page.url == current %} active {% endif %}">
-        <a href="{{page.url}}" class="b-links__link">{{page.title}}</a>
+        <a href="{{site.baseurl}}{{page.url}}" class="b-links__link">{{page.title}}</a>
       </li>
       <!-- /.b-links__item -->
       {% endfor %}
@@ -29,7 +29,7 @@
       {% assign current = page.url  %}
       {% for article in site.articles %}
       <li class="b-links__item {% if article.url == current %} active {% endif %}">
-        <a href="{{article.url}}" class="b-links__link">
+        <a href="{{site.baseurl}}{{article.url}}" class="b-links__link">
           {{article.title}}
           {% if article.img %}
           <div class="b-links__image">
